@@ -3,7 +3,6 @@
 import panadas as pd
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 import matplotlib.pylab as plt
 from dmba import plotDecisionTree, classificationSummary, regressionSummary
